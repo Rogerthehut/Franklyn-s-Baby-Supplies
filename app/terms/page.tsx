@@ -32,9 +32,6 @@ export default function TermsPage(){
     <h2>Repeat deliveries</h2>
     <p>Repeat & top up boxes can be paused, skipped or cancelled at any time before the relevant cut-off shown at checkout. Each delivery in a repeat plan is charged and confirmed individually.</p>
 
-    <h2>Hire items</h2>
-    <p>Hire items (prams, car seats and similar) are supplied under a monthly rolling plan. A deposit, condition check and full hire terms are confirmed before a hire booking is finalised; these terms will be provided separately.</p>
-
     <h2>Product suggestions</h2>
     <p>Suggesting a product idea doesn't guarantee we'll stock it. We may use suggestions, without attribution, to inform what we source.</p>
 

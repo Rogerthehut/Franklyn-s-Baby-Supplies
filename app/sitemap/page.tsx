@@ -24,7 +24,7 @@ const SITEMAP_GROUPS=[
  {
   heading:"Support & policies",
   links:[
-   {href:"/faq",label:"FAQs",description:"Answers to common questions about delivery, repeat boxes and hire.",icon:HelpCircle},
+   {href:"/faq",label:"FAQs",description:"Answers to common questions about delivery and repeat boxes.",icon:HelpCircle},
    {href:"/returns-policy",label:"Returns & complaints",description:"Your right to cancel, and how refunds and exchanges work.",icon:RotateCcw},
    {href:"/privacy",label:"Privacy policy",description:"What we collect, and why.",icon:Lock},
    {href:"/cookies",label:"Cookies policy",description:"The short, honest list of cookies we use.",icon:Cookie},

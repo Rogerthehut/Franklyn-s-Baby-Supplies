@@ -32,9 +32,6 @@ export default function ReturnsPolicyPage(){
     <h2>Exchanges</h2>
     <p>Prefer a swap over a refund? Choose "Exchange" when you start your return and tell us what you'd like instead; we'll confirm availability by email.</p>
 
-    <h2>Hire items</h2>
-    <p>Prams, car seats and other hire items are inspected at the start and end of every hire period. Fair wear and tear is expected; damage beyond that may be charged for. Full hire terms (deposits, inspection process) are confirmed before a hire booking is finalised.</p>
-
     <h2>Complaints</h2>
     <p>If something's gone wrong that isn't covered above (a delivery issue, a billing question, anything else), email us and we'll aim to resolve it within 5 working days. If you're not happy with how we've handled a complaint, you can also refer it to an independent alternative dispute resolution (ADR) provider.</p>
     <p className="legal-contact">Email: <a href="mailto:hello@franklynsbabysupplies.co.uk">hello@franklynsbabysupplies.co.uk</a></p>

@@ -5,7 +5,7 @@ import "./globals.css";
 const SITE_URL = "https://franklynsbabysupplies.co.uk";
 const TITLE = "Franklyn's Baby Supplies | Concept Preview";
 const DESCRIPTION =
-  "A fresh shopping concept for baby essentials, repeat deliveries and flexible equipment hire.";
+  "A fresh shopping concept for baby essentials and repeat deliveries.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
