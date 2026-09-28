@@ -1,5 +1,6 @@
 import type {Metadata} from "next";
 import {StaticHeader,StaticFooter} from "@/components/static-page-chrome";
+import {Accordion,AccordionItem,AccordionTrigger,AccordionContent} from "@/components/ui/accordion";
 
 export const metadata: Metadata={
  title:"FAQs · Franklyn's Baby Supplies",
@@ -24,14 +25,14 @@ export default function FaqPage(){
     <p className="kicker">FAQS</p>
     <h1>Questions, answered.</h1>
     <p className="legal-lead">The short version of everything below: real payment, real stock levels, illustrative delivery slots for now, and a real person behind every order.</p>
-    <div className="faq-list">
+    <Accordion type="multiple" className="faq-list">
      {FAQS.map(f=>
-      <details key={f.q} className="faq-item">
-       <summary>{f.q}</summary>
-       <p>{f.a}</p>
-      </details>
+      <AccordionItem key={f.q} value={f.q}>
+       <AccordionTrigger>{f.q}</AccordionTrigger>
+       <AccordionContent><p>{f.a}</p></AccordionContent>
+      </AccordionItem>
      )}
-    </div>
+    </Accordion>
    </main>
    <StaticFooter/>
    <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({

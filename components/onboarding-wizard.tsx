@@ -30,11 +30,11 @@ export function OnboardingWizard({open,onOpenChange,onComplete}:{open:boolean;on
     </DialogHeader>
     <div className="onboarding-progress"><span className={step>=0?"filled":""}/><span className={step>=1?"filled":""}/></div>
     {step===0?
-     <div className="onboarding-choices">
+     <div className="onboarding-choices" key={0}>
       {STAGES.map(s=><button key={s} className={`wizard-choice${stage===s?" selected":""}`} onClick={()=>{setStage(s);setStep(1)}}>{s}</button>)}
      </div>
      :
-     <div className="onboarding-choices">
+     <div className="onboarding-choices" key={1}>
       {GENDERS.map(g=><button key={g} className={`wizard-choice${gender===g?" selected":""}`} onClick={()=>{setGender(g);finish({stage,gender:g})}}>{g}</button>)}
      </div>
     }
